@@ -10,7 +10,6 @@ This repository contains the Tensorflow implementation of our model "Bangla Sign
 ## Requirements
 Install the following dependencies before running the model
   - Tensorflow 2.2 `pip install tensorflow == 2.2`
-  - tqdm `pip install tqdm`
   - sklearn `pip install -U scikit-learn`
 
 ## Directory structure
@@ -42,7 +41,7 @@ Install the following dependencies before running the model
   - Run the numpy_conversion.ipynb file first. This makes the numpy files for images, labels and pose estimations for train, test and validation sets and saves them in 'np_files' folder.
   - After that run the main.ipynb file to train the 'Concatenated BdSL Network' and save the weights in 'file_weights' folder. The validation and test results can also be obtained by running this.
 
-## Sample Outputs
+## Results
 <!-- ![](sample_pictures/A1_1.png "sample result 1")<br>
 SSVC: "A woman is cutting a piece of meat" <br>
 GT: "a woman is cutting into the fatty areas of a pork chop" <br>
