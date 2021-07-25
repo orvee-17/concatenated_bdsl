@@ -2,8 +2,8 @@
 This repository contains the Tensorflow implementation of our model "Bangla Sign Language Recognition Using Concatenated BdSL Network" <br>
 [[Code](https://github.com/orvee-17/concatenated_bdsl)] 
 
-<!-- ![Main Model](sample_pictures/main.png "SSVC Architecture")
- -->
+![Main Model](sample_pictures/main.png "Concatenated BdSL Network")
+
 ## Authors
    [Thasin Abedin](https://github.com/orvee-17), [Khondokar S. S. Prottoy](), [Ayana Moshruba](), [Safayet Bin Hakim]()
 
