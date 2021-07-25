@@ -1,5 +1,3 @@
-# concatenated_bdsl
-
 # Bangla Sign Language Recognition Using Concatenated BdSL Network
 This repository contains the Tensorflow implementation of our model "Bangla Sign Language Recognition Using Concatenated BdSL Network" <br>
 [[Code](https://github.com/orvee-17/concatenated_bdsl)] 
@@ -39,12 +37,10 @@ Install the following dependencies before running the model
 ```
 
 ## Train and Evaluate
-  - Download and extract 'glove.6B.100d.txt' [link](https://nlp.stanford.edu/projects/glove/)
-  - Download the [MSVD](https://www.microsoft.com/en-us/download/details.aspx?id=52422&from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F38cf15fd-b8df-477e-a4e4-a4680caa75af%2F) dataset and create corresponding pickle files using `vid2frames.ipynb`. Split the data in train-test-val sets.
-    > Alternate step: Download and extract ['data_pickle.zip'](https://drive.google.com/file/d/1Srqr1-J8psWae12dyMxsV4pDSNOi41UF/view?usp=sharing). This compressed file already contains the pickles files of MSVD dataset
-  - run the train.ipynb file
-    > This file has a detailed list of options. Change the options to adjust the model according to requirements
-  - Train and evaluation codes are inside the python notebook
+  - Download and extract 'pose_deploy.prototxt' and 'pose_iter_102000.caffemodel' and put them in 'hands_model' folder.
+  - Download the [MSVD](https://www.microsoft.com/en-us/download/details.aspx?id=52422&from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F38cf15fd-b8df-477e-a4e4-a4680caa75af%2F) dataset. Split the data in train-test-val sets.
+  - Run the numpy_conversion.ipynb file first. This makes the numpy files for images, labels and pose estimations for train, test and validation sets and saves them in 'np_files' folder.
+  - After that run the main.ipynb file to train the 'Concatenated BdSL Network' and save the weights in 'file_weights' folder. The validation and test results can also be obtained by running this.
 
 ## Sample Outputs
 <!-- ![](sample_pictures/A1_1.png "sample result 1")<br>
