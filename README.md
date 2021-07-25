@@ -5,7 +5,7 @@ This repository contains the Tensorflow implementation of our model "Bangla Sign
 ![Main Model](sample_pictures/main.PNG "Concatenated BdSL Network")
 
 ## Authors
-   [Thasin Abedin](https://github.com/orvee-17), [Khondokar S. S. Prottoy](), [Ayana Moshruba](), [Safayet Bin Hakim]()
+   [Thasin Abedin](https://github.com/orvee-17), [Khondokar S. S. Prottoy](https://github.com/KhondokarProttoy), [Ayana Moshruba](), [Safayet Bin Hakim]()
 
 ## Requirements
 Install the following dependencies before running the model
