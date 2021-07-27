@@ -47,19 +47,10 @@ Install the following dependencies before running the model
   - After that run the main.ipynb file to train the 'Concatenated BdSL Network' and save the weights in 'file_weights' folder. The validation and test results can also be obtained by running this.
 
 ## Results
-<!-- ![](sample_pictures/A1_1.png "sample result 1")<br>
-SSVC: "A woman is cutting a piece of meat" <br>
-GT: "a woman is cutting into the fatty areas of a pork chop" <br>
-SS score: 1.0, BLEU1: 1.0, BLEU2: 1.0, BLEU3: 1.0, BLEU4: 1.0<br>
+![](sample_pictures/table_bdsl.PNG "Comparison table of classification accuracy and used resources between our novel method and other work with same dataset")<br>
 
-![](sample_pictures/A1_2.png "sample result 2")<br>
-SSVC: "A person is slicing tomato" <br>
-GT: "Someone wearing blue rubber gloves is slicing a tomato with a large knife" <br>
-SS score: 0.825, BLEU1: 1.0, BLEU2: 1.0, BLEU3: 1.0, BLEU4: 1.0<br>
+![](sample_pictures/bdsl vs IN.PNG "Comparison of accuracy scores using test set among our different methods and modified VGG-19 Image Network")<br>
 
+![](sample_pictures/cm16.PNG "Confusion Matrix of the BdSL alphabet")<br>
 
-![](sample_pictures/A1_3.png "sample result 3")<br>
-SSVC: "A woman is cutting a piece of meat" <br>
-GT: "a woman is cutting into the fatty areas of a pork chop" <br>
-SS score: 0.94, BLEU1: 1.0, BLEU2: 0.84, BLEU3: 0.61, BLEU4: 0.0<br>
- -->
+![](sample_pictures/f1.PNG "F1-score on test data")<br>
