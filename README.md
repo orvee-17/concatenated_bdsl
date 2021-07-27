@@ -49,10 +49,6 @@ Install the following dependencies before running the model
 ## Results
 ![](sample_pictures/table_bdsl.PNG "Comparison table of classification accuracy and used resources between our novel method and other work with same dataset")<br>
 
-![](sample_pictures/bdsl vs IN.PNG "Comparison of accuracy scores using test set among our different methods and modified VGG-19 Image Network")<br>
-
 ![](sample_pictures/cm16.PNG "Confusion Matrix of the BdSL alphabet")<br>
 
 ![](sample_pictures/f1.PNG "F1-score on test data")<br>
-
-![](sample_pictures/bdsl vs IN.PNG "F1-score on test data")<br>
