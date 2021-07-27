@@ -1,6 +1,6 @@
 # Bangla Sign Language Recognition Using Concatenated BdSL Network
 This repository contains the Tensorflow implementation of our model "Bangla Sign Language Recognition Using Concatenated BdSL Network" <br>
-[[Code](https://github.com/orvee-17/concatenated_bdsl)] [[Paper](https://arxiv.org/pdf/)] [[ArXiv](https://arxiv.org/abs/)]
+[[Code](https://github.com/orvee-17/concatenated_bdsl)] [[Paper](https://arxiv.org/ftp/arxiv/papers/2107/2107.11818.pdf)] [[ArXiv](https://arxiv.org/abs/)]
 
 ![Main Model](sample_pictures/main.PNG "Concatenated BdSL Network")
 
