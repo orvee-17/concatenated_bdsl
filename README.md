@@ -11,6 +11,11 @@ This repository contains the Tensorflow implementation of our model "Bangla Sign
 Install the following dependencies before running the model
   - Tensorflow 2.2 `pip install tensorflow == 2.2`
   - sklearn `pip install -U scikit-learn`
+  - Pandas `pip install pandas`
+  - Numpy `pip install numpy`
+  - Keras `pip install keras`
+  - Pillow `pip install Pillow`
+  - OpenCV `pip3 install opencv-python`
 
 ## Directory structure
 ```
