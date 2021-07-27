@@ -54,3 +54,5 @@ Install the following dependencies before running the model
 ![](sample_pictures/cm16.PNG "Confusion Matrix of the BdSL alphabet")<br>
 
 ![](sample_pictures/f1.PNG "F1-score on test data")<br>
+
+![](sample_pictures/bdsl vs IN.PNG "F1-score on test data")<br>
