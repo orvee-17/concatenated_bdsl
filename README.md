@@ -42,7 +42,7 @@ Install the following dependencies before running the model
 
 ## Train and Evaluate
   - Download and extract 'pose_deploy.prototxt' and 'pose_iter_102000.caffemodel' and put them in 'hands_model' folder.
-  - Download the [MSVD](https://www.microsoft.com/en-us/download/details.aspx?id=52422&from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F38cf15fd-b8df-477e-a4e4-a4680caa75af%2F) dataset. Split the data in train-test-val sets.
+  - Download the [Bengali Sign Language Dataset]https://www.kaggle.com/muntakimrafi/bengali-sign-language-dataset) dataset. Split the data in train-test-val sets.
   - Run the numpy_conversion.ipynb file first. This makes the numpy files for images, labels and pose estimations for train, test and validation sets and saves them in 'np_files' folder.
   - After that run the main.ipynb file to train the 'Concatenated BdSL Network' and save the weights in 'file_weights' folder. The validation and test results can also be obtained by running this.
 
