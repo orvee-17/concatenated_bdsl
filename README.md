@@ -42,7 +42,7 @@ Install the following dependencies before running the model
 
 ## Train and Evaluate
   - Download and extract 'pose_deploy.prototxt' and 'pose_iter_102000.caffemodel' and put them in 'hands_model' folder.
-  - Download the [Bengali Sign Language Dataset]https://www.kaggle.com/muntakimrafi/bengali-sign-language-dataset) dataset. Split the data in train-test-val sets.
+  - Download the [Bengali Sign Language Dataset](https://www.kaggle.com/muntakimrafi/bengali-sign-language-dataset) dataset. Split the data in train-test-val sets.
   - Run the numpy_conversion.ipynb file first. This makes the numpy files for images, labels and pose estimations for train, test and validation sets and saves them in 'np_files' folder.
   - After that run the main.ipynb file to train the 'Concatenated BdSL Network' and save the weights in 'file_weights' folder. The validation and test results can also be obtained by running this.
 
